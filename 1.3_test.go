@@ -3,12 +3,12 @@ import "testing"
 import "fmt"
 
 func TestRemoveRepeatChars(t *testing.T) {
-    input := "hello"
+    input := "hellllllllooob"
     fmt.Println("Before: ", input)
     output := RemoveRepeatChars(input)
     fmt.Println("After: ", output)
 
-    if output != "helo" {
+    if output != "helob" {
         t.Error()
     }
 }
