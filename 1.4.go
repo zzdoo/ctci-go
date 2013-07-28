@@ -33,7 +33,7 @@ func CheckAnagramsV2(str1 string, str2 string) bool {
     return true
 }
 
-// 但这种算法是O(n2)级别的
+// O(n2), my version
 func CheckAnagrams(str1 string, str2 string) bool {
     r1 := []rune(str1)
     r2 := []rune(str2)
